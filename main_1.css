@@ -1,0 +1,151 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 Nov 2015, 12:31:47 AM
+    Author     : AbdusSalaam
+*/
+
+@font-face {
+    font-family: "Shift";
+    font-style: normal;
+    font-weight: normal;
+    /*src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff");*/
+}
+@font-face {
+    font-family: "Shift";
+    font-style: normal;
+    font-weight: bold;
+    /*src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");*/
+}
+
+/*Initial menu*/
+.menu{
+    background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+    left: -285px;
+    height: 100%;
+    position:fixed;
+    width: 285px;
+}
+
+body {
+  left: 0;
+  margin: 0;
+  /*overflow: hidden;*/
+  position: relative;
+}
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+/*.menu a:hover{
+    text-decoration: underline;
+}*/
+/* styles for navigation drop down*/
+.menu li:hover {
+/*    background:greenyellow;*/
+    position: relative;
+    text-decoration: underline;
+}
+ul .sublevel {
+    display:none;
+}
+
+li:hover .sublevel{
+    background: transparent;
+    display:block;
+    position:absolute;
+    left: 75px;
+    top: 5px;
+    
+}
+
+ul.sublevel li{
+    border:none;
+    float:left;
+    width:150px;
+}
+/* end of navigation drop down styles */
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+
+
+#header1{
+    background-color: #D6FF5C;
+    /*display: inline;*/
+}
+
+#OAheader1{
+    background-color: #D6FF5C;
+    /*display: inline;*/
+}
+
+#MAheader1{
+    background-color: #D6FF5C;
+    /*display: inline;*/
+}
+
+#UFheader {
+     background-color: #D6FF5C;
+}
+
+#tm  {
+    /*float: right;*/
+    margin-top: 25px;
+}
+#usr  {
+    /*float: right;*/
+    margin-top: 25px;
+}
+#header2{
+    background-color: #D14;
+    /*display: inline;*/
+}
+#chrts-top{
+    margin-bottom: 5px;
+}
+#chrt-top-left,#chrt-btm-left,#chrt-top-rght,#chrt-btm-rght {
+    box-shadow: 0 0 8px #c4c5c8;
+    text-decoration: none;
+    transition: all 0.2s ease 0s;
+    
+}
+

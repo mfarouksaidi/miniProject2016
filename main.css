@@ -1,0 +1,207 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 Nov 2015, 12:31:47 AM
+    Author     : AbdusSalaam
+*/
+
+/*Initial menu*/
+.chrtTitle{
+    color: blue;
+    text-align: center;
+    text-decoration: blue underline solid;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.shftBox{
+   box-shadow: 0 0 8px #c4c5c8;
+   margin-top: 5px;
+}
+/*circle,*/
+path {
+  cursor: pointer;
+}
+
+circle {
+  /*fill: none;*/
+  pointer-events: all;
+}
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+.menu{
+    background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+    left: -285px;
+    height: 100%;
+    position:fixed;
+    width: 285px;
+}
+
+body {
+  left: 0;
+  margin: 0;
+  /*overflow: hidden;*/
+  position: relative;
+}
+.menu ul {
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+.fxd_dd{
+    position: fixed;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.dropdown-menu {
+  font-size: 16px;
+  margin-top: 5px;
+  min-width: 105px;
+}
+
+.dropdown-menu li a {
+  color: #898989;
+  padding: 6px 20px;
+  font-weight: 300;
+}
+
+#drpdwns{
+    padding-top: 15px;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+}
+#header11{
+    background-color: #D6FF5C;
+    /*display: inline;*/
+}
+#tm  {
+    /*float: right;*/
+    margin-top: 25px;
+}
+#usr  {
+    /*float: right;*/
+    margin-top: 25px;
+}
+#header22{
+    background-color: #D14;
+    /*display: inline;*/
+}
+#chrts-top{
+    margin-bottom: 5px;
+}
+#chrt-top-left,#chrt-btm-left,#chrt-top-rght,#chrt-btm-rght {
+    box-shadow: 0 0 8px #c4c5c8;
+    text-decoration: none;
+    transition: all 0.2s ease 0s;
+    
+}
+.axis path,.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+.x.axis path {
+  display: inline;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+rect:hover {
+    fill: orange;
+}
+/*ensure that the boder radius is at leat the same as the padding*/
+#tooltipTL,#tooltipTR,#tooltipBL,#tooltipBR {
+        position: absolute;
+        width: auto;
+        height: auto;
+        padding: 3px;
+        background-color: white;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        pointer-events: none;
+}
+
+#tooltip.hidden {
+        display: none;
+}
+
+#tooltipTL p,#tooltipTR p,#tooltipBL p,#tooltipBR p {
+        margin: 0;
+        font-family: sans-serif;
+        font-size: 11px;
+        /*line-height: 1px;*/
+}
+/*circle:hover{
+    fill:black;
+    r:20;
+}*/
