@@ -136,7 +136,31 @@ body {
 }
 #header11{
     background-color: #D6FF5C;
+    height: 100px;
+    max-height: 100px;
     /*display: inline;*/
+}
+
+#headerBottom{
+    /*background-color: blue;*/
+    height: 600px;
+    background-image: url("https://c1.staticflickr.com/9/8521/8623302464_635909c759_b.jpg");
+}
+
+#logoHolder{
+    height: 100px;
+    width: 80px;
+    /*background-color: white;*/
+    /*background-image: url("http://ih0.redbubble.net/image.92286741.6247/sticker,375x360.u5.png");*/
+}
+
+#details{
+    margin-left: 300px;
+    margin-right: 300px;
+    /*padding-top: 20px;*/
+    /*margin-top: 20px;*/
+    /*background-color: black;*/
+    height: 200px;
 }
 #tm  {
     /*float: right;*/

@@ -20,6 +20,23 @@ and open the template in the editor.
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'/>
     </head>
     <body>
+        
+          <div id="header11" class="row">
+            <!--<div class="menu">-->
+                <!--<div class="icon-close">-->
+                    <!--<img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png"/>-->
+
+            <!--</div>-->
+            <div id="logoHolder">
+                <img src="bbb.PNG" alt="" style="height:100px"/>
+            </div> 
+          
+          </div>
+        <div id="headerBottom">
+            <div id="details">
+                <form>
+                 </form>   
+            </div>
         <?php
         // put your code here
         ?>
